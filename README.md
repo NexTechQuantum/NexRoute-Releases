@@ -1,139 +1,65 @@
+**Deutsch** · [English](README.en.md)
+
 <div align="center">
-  <img src="assets/brand/nexroute.png" width="96" height="96" alt="NexRoute electric vehicle icon">
-  <h1>NexRoute</h1>
-  <p><strong>Your route. Your EV. A clearer charging plan.</strong></p>
-  <p>Plan electric journeys across Germany with battery estimates,<br>suggested charging stops and turn-by-turn navigation.</p>
-  <p><img src="assets/badges/android.svg" alt="Android 8.0+ · arm64"><br>
-  <img src="assets/badges/auto.svg" alt="Android Auto · Limited Testing"></p>
-  <p><a href="#download">Download APK</a> · <a href="https://nexroute.nexquantum.de">NexRoute website</a> · <a href="#android-auto">Request Android Auto Access</a></p>
+<img src="assets/brand/nexroute.png" width="96" height="96" alt="NexRoute für Elektroautos">
+<h1>NexRoute</h1>
+<p><strong>Dein Ziel. Dein Elektroauto. Ein klarer Ladeplan.</strong></p>
+<p>Elektrische Fahrten in Deutschland planen – mit Batterieprognosen und passenden Ladestopps.</p>
 </div>
 
----
+## Für den Alltag mit deinem Elektroauto
 
-## Less guesswork between charging stops
+NexRoute entsteht aus dem Wunsch, eigene Fahrten in Deutschland besser zu planen. Gib dein Ziel ein, wähle dein Fahrzeug und trage deinen Ladestand ein. Die App berechnet eine Straßenroute, schätzt die Ankunftsladung und schlägt bei Bedarf Ladestopps vor.
 
-Choose a destination, select your vehicle and enter your current battery level.
-NexRoute brings the road route, estimated arrival battery and suggested charging
-stops together, so you can make an informed plan before setting off.
+**Experimentelle Testversion – noch keine stabile Produktionsversion.** Reichweite, Ladezeiten und Stationsdaten sind Planungshilfen, keine Zusagen.
 
-**Currently a development preview, not a stable production release.** Battery
-estimates and charger data are planning aids, not guarantees of range or availability.
+## Funktionen
 
-## Built for your electric journey
+- Fahrzeugprofile mit Kapazität, Verbrauch, Anschlüssen und maximaler DC-Ladeleistung speichern.
+- Start-Ladestand und Ankunftsreserve einstellen; Ladeanbieter und Anschlüsse berücksichtigen.
+- Ladestopps mit geschätzten Ladezeiten und Batteriewerten prüfen.
+- Mit Karte und Sprachführung navigieren; gespeicherte und letzte Ziele wiederverwenden.
+- Deutsche Kartenregionen herunterladen; helle und dunkle Darstellung nutzen.
+- Android Auto über einen gesonderten Google-Play-Test ausprobieren.
 
-| Before you leave | On the road |
-| --- | --- |
-| **Your vehicle profile.** Save multiple vehicles with battery capacity, consumption, connectors and maximum DC charging power. | **Turn-by-turn guidance.** Road routes, spoken instructions and map-following navigation. |
-| **Battery-aware planning.** Set departure charge and arrival reserve; see estimated energy and arrival charge. | **Charging stops.** Review suggested stops and their estimated arrival/departure charge and charging time. |
-| **Charging preferences.** Choose operators/providers and compatible connectors. Station details show available information. | **Quick destinations.** Reuse saved places and recent destinations. |
-| **Downloadable maps.** Keep German regional map packages on your device. | **Day and night.** Light/dark appearance and a landscape-friendly layout. |
-
-Offline **maps** do not mean offline **route calculation**: new road routes and
-online address search still require network services. Battery values are entered
-manually; NexRoute does not read live battery telemetry from your car. Provider
-preferences do not guarantee roaming, tariff acceptance or a free charging bay.
-
-## A closer look
-
-Real screenshots are being prepared. The spaces below intentionally do not
-simulate the app or show mock data as finished functionality.
-
-| Plan your route | Make it your vehicle | Follow the journey |
-| :---: | :---: | :---: |
-| **Phone preview coming** | **Phone preview coming** | **Phone preview coming** |
-| Destination, charge and reserve | Vehicle profile and connectors | Map, guidance and arrival estimate |
-
-<!-- SCREENSHOT: assets/screenshots/phone/route-plan-light.png -->
-<!-- SCREENSHOT: assets/screenshots/phone/vehicle-profile-light.png -->
-<!-- SCREENSHOT: assets/screenshots/phone/navigation-dark.png -->
-
-<details>
-<summary>More product previews</summary>
-
-| Charging plan | Downloaded maps | Android Auto |
-| :---: | :---: | :---: |
-| **Screenshot coming** | **Screenshot coming** | **Testing preview coming** |
-| Suggested stop and charge estimates | Installed German region | Navigation and EV trip information |
-
-<!-- SCREENSHOT: assets/screenshots/phone/charging-plan-light.png -->
-<!-- SCREENSHOT: assets/screenshots/phone/offline-maps-light.png -->
-<!-- SCREENSHOT: assets/screenshots/android-auto/navigation-light.png -->
-<!-- SCREENSHOT: assets/screenshots/android-auto/saved-places-dark.png -->
-
-</details>
+Offline-Karten bedeuten **keine Offline-Routenberechnung**. Neue Routen und Online-Adresssuche benötigen Internet. Batteriewerte werden manuell eingegeben; keine Live-Verbindung zur Fahrzeugbatterie. Anbieterfilter garantieren weder Roaming noch freie Ladeplätze oder bestimmte Preise.
 
 ## Download
 
-| | Availability |
+**[APK 0.3.13 (20) herunterladen](https://github.com/NexTechQuantum/NexRoute-Releases/releases/download/v0.3.13/NexRoute-0.3.13-20-arm64.apk)** · [Versionshinweise und SHA-256](https://github.com/NexTechQuantum/NexRoute-Releases/releases/tag/v0.3.13)
+
+| | Stand |
 | --- | --- |
-| Latest stable APK | **Not published yet** |
-| Current test build | **0.3.13 (20)** — public APK release pending |
-| Public release date | Not yet published |
-| Minimum Android | **Android 8.0 / API 26** |
-| Architecture | **arm64-v8a** — 64-bit ARM devices; no x86 emulator APK |
-| Android Auto | Separate, limited Google Play testing access |
+| Veröffentlichung | 7. Oktober 2026 |
+| Status | Experimentelle Testversion; keine stabile Version |
+| Android | Android 8.0 / API 26 oder neuer |
+| Architektur | arm64-v8a (64-Bit ARM) |
+| Android Auto | Separater, begrenzter Google-Play-Test |
 
-The APK will be attached to a **GitHub Release**, not committed to this repository.
-Once available, use the APK asset in that release; the automatic “Source code” ZIP
-is **not** an Android installer.
-
-<!-- RELEASE_LINKS: replace pending state only after verifying the actual repository and release.
-Stable CTA: https://github.com/NexTechQuantum/NexRoute-Releases/releases/latest
-Prerelease list: https://github.com/NexTechQuantum/NexRoute-Releases/releases
-Never label a prerelease Stable; /latest excludes prereleases.
--->
-
-[Read the current build notes](release-notes/0.3.13.md). Only install packages from
-official NexQuantum releases. A directly installed APK may use a different signing
-certificate from Google Play and may not update a Play-installed copy in place.
-Do not uninstall without preserving anything you need: local app data can be lost.
+Die APK liegt unter „Assets“. Das automatische „Source code“-ZIP ist kein Installationspaket. Erlaube Installationen aus dieser Quelle nur bewusst. Direkt-APK und Google Play können verschiedene Signaturen haben und sind dann nicht übereinander installierbar. Nicht vorschnell deinstallieren: Lokale Profile und gespeicherte Ziele können dabei verloren gehen.
 
 ## Android Auto
 
-**Android Auto — Limited Testing**
+Ziele suchen, gespeicherte Orte öffnen, Fahrzeug- und Ladeeinstellungen verwenden und die Navigation auf dem Autodisplay starten. Die Bedienung folgt Android-Auto-Vorlagen und kann von der Telefonansicht abweichen.
 
-Search for a destination, open saved places and start navigation on the car
-display. The test integration also exposes saved vehicles, manual battery/reserve
-adjustments and charging-plan information. Car-screen controls follow Android Auto
-templates and can differ from the phone interface.
+**[Testzugang anfragen](https://nexroute.nexquantum.de/nexroute/android-auto)**
 
-Android Auto is currently distributed through **Google Play testing**. Installing
-the standalone phone APK does not grant access to that test. Invitations are
-reviewed manually; a request is not a promise of access or an automatic enrollment.
+Nur die Google-Play-E-Mail und die Bestätigung des Datenschutzhinweises sind erforderlich. Anfragen werden manuell geprüft; keine automatische oder garantierte Einladung. Die Telefon-APK allein schaltet den Google-Play-Test nicht frei. Bitte keine E-Mail-Adressen in öffentlichen GitHub-Beiträgen hinterlassen.
 
-**[Request Android Auto Access](https://nexroute.nexquantum.de/nexroute/android-auto).** The secure form asks for
-the Google Account email you use with Google Play. Please **do not post that email
-in GitHub Issues, discussions or pull requests**.
+## Einblicke
 
-<!-- ACCESS_FORM: replace this pending CTA with the verified HTTPS URL after hosting is confirmed.
-Isolated hosting only: never deploy over the existing nexquantum.de panel.
--->
+Echte Screenshots von Routenplanung, Fahrzeugprofilen, Ladestopps und Android Auto folgen. Keine erfundenen App-Aufnahmen.
 
-## Privacy, by design and in plain language
+## Datenschutz und Sicherheit
 
-No account is needed to use the phone app. Vehicle profiles and saved places stay
-on your device. Online routing sends route coordinates to our backend. Optional
-community reports and support messages are stored as described in the policy;
-random report identifiers are pseudonymous, not fully anonymous. There is no
-advertising or analytics SDK in the reviewed build.
+Kein App-Konto erforderlich. Fahrzeugprofile und gespeicherte Ziele bleiben auf deinem Gerät. Online-Routing überträgt Routenkoordinaten an unseren Server. Freiwillige Meldungen und Supportnachrichten werden gemäß Datenschutzerklärung verarbeitet. Zufällige Meldekennungen sind pseudonym, nicht vollständig anonym. Der geprüfte Build enthält kein Werbe- oder Analyse-SDK.
 
-[Privacy policy](https://169-58-67-137.sslip.io/privacy) ·
-[Request data deletion](https://169-58-67-137.sslip.io/data-deletion)
+[Datenschutz](https://169-58-67-137.sslip.io/privacy) · [Löschanfragen](https://169-58-67-137.sslip.io/data-deletion) · [Datenschutz der Testanfrage](https://nexroute.nexquantum.de/nexroute/android-auto/privacy)
 
-The Android Auto application form has its own short privacy notice before sending.
-Your Google Play email is used to review your request and, if accepted, invite you
-to the test—not published on GitHub or subscribed to marketing.
+Verkehrszeichen und Regeln haben Vorrang. Stationsdaten und Tempolimits können fehlen oder fehlerhaft sein. Prüfe Lademöglichkeiten unabhängig und bediene das Telefon nur sicher geparkt. Keine falschen öffentlichen Meldungen zu Testzwecken erstellen.
 
-## Useful to know
+---
 
-- Coverage and datasets currently focus on **Germany**.
-- Station status, tariffs and speed limits may be incomplete or unavailable.
-- Follow road signs and traffic rules. Check charging availability independently.
-- Use phone settings only while safely parked. Never create false public road
-  reports just to test the interface.
+**NexRoute von NexQuantum** · [Website](https://nexroute.nexquantum.de) · [Support](mailto:support@nexquantum.de)
 
-<div align="center">
-  <p><strong>NexRoute by NexQuantum</strong><br>Electric journeys, thoughtfully planned.</p>
-  <p><a href="https://nexroute.nexquantum.de">Website</a> · <a href="mailto:support@nexquantum.de">Support</a></p>
-  <sub>This repository contains product information and release downloads—not the private NexRoute source code.</sub>
-</div>
+Dieses Repository enthält Produktinformationen und Downloads – nicht den privaten Quellcode der App.
