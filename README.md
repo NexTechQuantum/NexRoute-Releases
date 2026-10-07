@@ -5,7 +5,7 @@
   <p>Plan electric journeys across Germany with battery estimates,<br>suggested charging stops and turn-by-turn navigation.</p>
   <p><img src="assets/badges/android.svg" alt="Android 8.0+ · arm64"><br>
   <img src="assets/badges/auto.svg" alt="Android Auto · Limited Testing"></p>
-  <p><a href="#download">Download APK</a> · <a href="https://nexquantum.de">NexQuantum website</a> · <a href="#android-auto">Request Android Auto Access</a></p>
+  <p><a href="#download">Download APK</a> · <a href="https://nexroute.nexquantum.de">NexRoute website</a> · <a href="#android-auto">Request Android Auto Access</a></p>
 </div>
 
 ---
@@ -101,7 +101,7 @@ Android Auto is currently distributed through **Google Play testing**. Installin
 the standalone phone APK does not grant access to that test. Invitations are
 reviewed manually; a request is not a promise of access or an automatic enrollment.
 
-**Request Android Auto Access — form opening soon.** The secure form will ask for
+**[Request Android Auto Access](https://nexroute.nexquantum.de/nexroute/android-auto).** The secure form asks for
 the Google Account email you use with Google Play. Please **do not post that email
 in GitHub Issues, discussions or pull requests**.
 
@@ -134,6 +134,6 @@ to the test—not published on GitHub or subscribed to marketing.
 
 <div align="center">
   <p><strong>NexRoute by NexQuantum</strong><br>Electric journeys, thoughtfully planned.</p>
-  <p><a href="https://nexquantum.de">Website</a> · <a href="mailto:support@nexquantum.de">Support</a></p>
+  <p><a href="https://nexroute.nexquantum.de">Website</a> · <a href="mailto:support@nexquantum.de">Support</a></p>
   <sub>This repository contains product information and release downloads—not the private NexRoute source code.</sub>
 </div>
