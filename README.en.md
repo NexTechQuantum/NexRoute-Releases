@@ -69,8 +69,8 @@ simulate the app or show mock data as finished functionality.
 | | Availability |
 | --- | --- |
 | Latest stable APK | **Not published yet** |
-| Current test build | **[0.3.13 (20) — experimental APK](https://github.com/NexTechQuantum/NexRoute-Releases/releases/tag/v0.3.13)** |
-| Public release date | 7 October 2026 |
+| Current test build | **[0.3.18 (25) — experimental APK](https://github.com/NexTechQuantum/NexRoute-Releases/releases/tag/v0.3.18)** |
+| Public release date | 17 October 2026 |
 | Minimum Android | **Android 8.0 / API 26** |
 | Architecture | **arm64-v8a** — 64-bit ARM devices; no x86 emulator APK |
 | Android Auto | Separate, limited Google Play testing access |
@@ -85,7 +85,7 @@ Prerelease list: https://github.com/NexTechQuantum/NexRoute-Releases/releases
 Never label a prerelease Stable; /latest excludes prereleases.
 -->
 
-[Read the current build notes](release-notes/0.3.13.md). Only install packages from
+[Read the current build notes](https://github.com/NexTechQuantum/NexRoute-Releases/releases/tag/v0.3.18). Only install packages from
 official NexQuantum releases. A directly installed APK may use a different signing
 certificate from Google Play and may not update a Play-installed copy in place.
 Do not uninstall without preserving anything you need: local app data can be lost.
