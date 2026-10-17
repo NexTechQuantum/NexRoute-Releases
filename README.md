@@ -26,11 +26,11 @@ Offline-Karten bedeuten **keine Offline-Routenberechnung**. Neue Routen und Onli
 
 ## Download
 
-**[APK 0.3.13 (20) herunterladen](https://github.com/NexTechQuantum/NexRoute-Releases/releases/download/v0.3.13/NexRoute-0.3.13-20-arm64.apk)** · [Versionshinweise und SHA-256](https://github.com/NexTechQuantum/NexRoute-Releases/releases/tag/v0.3.13)
+**[APK 0.3.18 (25) herunterladen](https://github.com/NexTechQuantum/NexRoute-Releases/releases/download/v0.3.18/NexRoute-0.3.18-25-arm64.apk)** · [Versionshinweise und SHA-256](https://github.com/NexTechQuantum/NexRoute-Releases/releases/tag/v0.3.18)
 
 | | Stand |
 | --- | --- |
-| Veröffentlichung | 7. Oktober 2026 |
+| Veröffentlichung | 17. Oktober 2026 |
 | Status | Experimentelle Testversion; keine stabile Version |
 | Android | Android 8.0 / API 26 oder neuer |
 | Architektur | arm64-v8a (64-Bit ARM) |
